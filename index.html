@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>neunynium</title>
+
+  <style>
+    body {
+      padding: 0;
+      margin: 0;
+      background-color: #000;
+    }
+
+    video {
+       object-fit: cover;
+      object-position: center;
+      width: 100%;
+      height: 100%;
+      min-height: 100%;
+    }
+
+    .bg {
+      height: 100vh;
+    }
+
+    .instagram-link {
+      padding: 24px;
+
+      top: 0;
+      left: 0;
+      position: absolute;
+    }
+
+/*    .video-wrapper {
+      padding: 50px;
+      display: grid;
+      grid-template-rows: repeat(5, 300px);
+      grid-template-columns: repeat(3, minmax(auto, 33%));
+      grid-auto-flow: dense;
+      justify-items: center;
+      align-items: center;
+      grid-gap: 50px;
+    }*/
+
+    .video-wrapper {
+      padding: 2vw;
+      padding-top: 0 !important;
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(auto, calc(100% / 3 - 40px)));
+      grid-auto-rows: 1fr;
+      grid-template-rows: repeat(auto-fill, 1fr);
+      grid-gap: 2vw;
+      justify-content: center; 
+    }
+
+    @media only screen and (min-width: 10px) and (max-width: 700px) {  
+      .video-wrapper {
+        padding: 20px;
+        grid-template-columns: 100%;
+        grid-gap: 20px;
+      }
+    }
+
+    @media only screen and (min-width: 1200px) {  
+      .video-wrapper {
+        padding: 50px;
+        grid-gap: 50px;
+      }
+    }
+
+    .video-wrapper::before {
+      content: '';
+      width: 0;
+      padding-bottom: 100%;
+      grid-row: 1 / 1;
+      grid-column: 1 / 1;
+    }
+
+    .video-wrapper > *:first-child {
+      grid-row: 1 / 1;
+      grid-column: 1 / 1;
+    }
+
+
+    p {
+      padding: 50px;
+      color: #fff;
+      font-family: arial;
+    }
+
+    a {
+      color: mediumturquoise;
+    }
+
+    a:visited {
+      color: wheat;
+    }
+
+    a:hover {
+      color: lightcoral;
+    }
+
+  </style>
+</head>
+
+<body link="#78DBE2" vlink="#cecece" alink="#ff0000" bgcolor="black">
+    <video preload="none" autoplay muted loop class="bg">
+      <source src="bg.mp4">
+    </video>
+
+    <p>
+    Hi! My name is Ann. If you like my works and want something similar for yourself, contact me on <a href="https://t.me/neunynium" target="_blank">telegram</a>, <a href="https://www.instagram.com/neunynium" target="_blank">instagram</a> or <a href="mailto:neunynium@gmail.com" target="_blank">mail</a>.
+    </p>
+
+   <div class="video-wrapper"> 
+     <video preload="none" autoplay muted loop >
+      <source src="videos/odesssa.mp4">
+    </video>
+     <video preload="none" autoplay muted loop >
+      <source src="videos/flamingo.mp4">
+    </video>
+     <video preload="none" autoplay muted loop >
+      <source src="videos/phone_station.mp4">
+    </video>
+     <video preload="none" autoplay muted loop >
+      <source src="videos/vel.mp4">
+    </video>
+     <video preload="none" autoplay muted loop >
+      <source src="videos/kaleida_eyes.mp4">
+    </video>
+     <video preload="none" autoplay muted loop >
+      <source src="videos/balcony.mp4">
+    </video>
+    <video preload="none" autoplay muted loop >
+      <source src="videos/rooaad_glitch.mp4">
+    </video>
+     <video preload="none" autoplay muted loop >
+      <source src="videos/sun-vs-hand.mp4">
+    </video>
+     <video preload="none" autoplay muted loop >
+      <source src="videos/forest_dress.mp4">
+    </video>
+ <!--     <video preload="none" autoplay muted loop >
+      <source src="videos/boy_sea.mp4">
+    </video> -->
+
+    <!-- https://vimeo.com/355141766 -->
+
+    <iframe src="https://player.vimeo.com/video/355141766?autoplay=1&loop=1&color=f47a86&title=1" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+
+
+     <video preload="none" autoplay muted loop >
+      <source src="videos/flower_dress.mp4">
+    </video>
+     <video preload="none" autoplay muted loop >
+      <source src="videos/lake_hands.mp4">
+    </video>
+     <video preload="none" autoplay muted loop >
+      <source src="videos/vsmysle.mp4">
+    </video>
+     <video preload="none" autoplay muted loop >
+      <source src="videos/snow.mp4">
+    </video>
+     <video preload="none" autoplay muted loop >
+      <source src="videos/seaa_rev.mp4">
+    </video>
+    </div>
+
+  <a href="https://instagram.com/neunynium" target="_blank" class="instagram-link">
+    <svg width="50px" height="50px" viewBox="0 0 511 511">
+      <g fill="#fff">
+        <path d="M510.5,150.2c-1.2-27.2-5.6-45.8-11.9-62c-6.5-17.2-16.5-32.5-29.5-45.3c-12.8-13-28.3-23.1-45.2-29.4
+          c-16.3-6.3-34.8-10.7-62-11.9C334.5,0.3,325.8,0,256.4,0s-78.1,0.3-105.3,1.5c-27.2,1.2-45.8,5.6-62,11.9
+          C72,19.9,56.6,29.8,43.8,42.9c-13,12.8-23.1,28.3-29.4,45.2c-6.3,16.3-10.7,34.8-11.9,62c-1.3,27.4-1.6,36-1.6,105.4
+          s0.3,78.1,1.5,105.3c1.2,27.2,5.6,45.8,11.9,62c6.5,17.2,16.6,32.5,29.5,45.3c12.8,13,28.3,23.1,45.2,29.4
+          c16.3,6.3,34.8,10.7,62,11.9c27.2,1.2,35.9,1.5,105.3,1.5s78.1-0.3,105.3-1.5c27.2-1.2,45.8-5.6,62-11.9
+          c34.3-13.3,61.5-40.4,74.8-74.8c6.3-16.3,10.7-34.8,11.9-62c1.2-27.3,1.5-35.9,1.5-105.3S511.7,177.5,510.5,150.2z M464.5,358.9
+          c-1.1,25-5.3,38.4-8.8,47.4c-8.6,22.3-26.3,39.9-48.5,48.5c-9,3.5-22.6,7.7-47.4,8.8c-27,1.2-35,1.5-103.2,1.5s-76.4-0.3-103.2-1.5
+          c-25-1.1-38.4-5.3-47.4-8.8c-11.1-4.1-21.2-10.6-29.3-19.1c-8.5-8.3-15-18.3-19.1-29.3c-3.5-9-7.7-22.6-8.8-47.4
+          c-1.2-27-1.5-35-1.5-103.2s0.3-76.4,1.5-103.2c1.1-25,5.3-38.4,8.8-47.4C61.6,94,68.1,84,76.7,75.8c8.3-8.5,18.3-15,29.3-19.1
+          c9-3.5,22.6-7.7,47.4-8.8c27-1.2,35-1.5,103.2-1.5c68.3,0,76.4,0.3,103.2,1.5c25,1.1,38.4,5.3,47.4,8.8
+          c11.1,4.1,21.2,10.6,29.3,19.1c8.5,8.3,15,18.3,19.1,29.4c3.5,9,7.7,22.6,8.8,47.4c1.2,27,1.5,35,1.5,103.2S465.7,331.9,464.5,358.9
+          z"/>
+        <path d="M256.4,124.3c-72.5,0-131.3,58.8-131.3,131.3S184,386.8,256.4,386.8c72.5,0,131.3-58.8,131.3-131.3
+          S328.9,124.3,256.4,124.3z M256.4,340.7c-47,0-85.2-38.1-85.2-85.2s38.1-85.2,85.2-85.2c47,0,85.2,38.1,85.2,85.2
+          S303.5,340.7,256.4,340.7z"/>
+        <path d="M423.6,119.1c0,16.9-13.7,30.6-30.6,30.6c-16.9,0-30.6-13.7-30.6-30.6c0-16.9,13.7-30.6,30.6-30.6
+          C409.8,88.4,423.6,102.2,423.6,119.1z"/>
+      </g>
+    </svg>
+  </a>
+ 
+
+</body>
+</html>
